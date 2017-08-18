@@ -84,7 +84,12 @@ gulp.task('pl-copy:styleguide-css', function () {
 
 gulp.task('pl-sass', function(){
   return gulp.src(path.resolve(paths().source.css, '**/*.scss'))
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({
+      includePaths: [
+        'node_modules/breakpoint-sass/stylesheets', 
+        'node_modules/breakpoint-slicer/stylesheets'
+      ]
+    }).on('error', sass.logError))
     .pipe(gulp.dest(path.resolve(paths().source.css)));
 });
 
