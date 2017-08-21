@@ -105,7 +105,7 @@ table {
     line-height: 1em; }
 
 .texture-cube-blue {
-  background-image: url("/images/pattern-cube-blue.jpg"); }
+  background-image: url("../images/pattern-cube-blue.jpg"); }
 
 input, textarea {
   background-color: #f6f6f6;
@@ -209,7 +209,7 @@ select {
     padding: 13px 25px; }
 
 .header-textured {
-  background-image: url("/images/pattern-cube-blue.jpg");
+  background-image: url("../images/pattern-cube-blue.jpg");
   padding: 60px 30px; }
   .header-textured__text {
     color: white;
