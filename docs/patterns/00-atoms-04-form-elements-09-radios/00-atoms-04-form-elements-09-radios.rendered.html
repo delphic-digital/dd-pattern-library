@@ -26,30 +26,14 @@
 
 <body class="">
 
-  <div class="row">
-    <div class="row__col">
-      <div class="pad">
-        <button class="btn btn--small">Small</button>
-        <button class="btn">Default</button>
-        <button class="btn btn--large">Large</button>
-      </div>
-      <div class="pad">
-        <button class="btn btn--white">White</button>
-        <button class="btn btn--pink">Pink</button>
-      </div>
-    </div>
-    <div class="row__col">
-      <div class="pad bg-black">
-        <button class="btn">Default</button>
-        <button class="btn btn--white">White</button>
-        <button class="btn btn--pink">Pink</button>
-      </div>
-      <div class="pad bg-black">
-        <button class="btn btn--orange">Category Tag Orange</button>
-        <button class="btn btn--green">Category Tag Green</button>
-        <button class="btn btn--purple">Category Tag Purple</button>
-      </div>
-    </div>
+  <div class="radio-button">
+    <input type="radio" id="radio-example-one" name="radios" checked="checked">
+    <label for="radio-example-one">And this is a radio button</label>
+  </div>
+
+  <div class="radio-button">
+    <input type="radio" id="radio-example-two" name="radios">
+    <label for="radio-example-two">Hmmm</label>
   </div>
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
@@ -62,14 +46,14 @@
       "patternLineagesR": [],
       "lineageR": [],
       "patternLineageEExists": false,
-      "patternDesc": "<p>Insert description here - hello!</p>\n<p>this is the description</p>\n",
+      "patternDesc": "<p>The label must be immidiatly after the input as we're using the <code>input:checked + label</code> selector.</p>\n",
       "patternBreadcrumb": {
         "patternType": "atoms",
-        "patternSubtype": "buttons"
+        "patternSubtype": "form-elements"
       },
       "patternExtension": "mustache",
-      "patternName": "Buttons",
-      "patternPartial": "atoms-buttons",
+      "patternName": "Radios",
+      "patternPartial": "atoms-radios",
       "patternState": "inprogress",
       "patternEngineName": "mustache",
       "extraOutput": {}
