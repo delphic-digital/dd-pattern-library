@@ -9,7 +9,10 @@
   max-width: 100%;
   padding: 0 0.5em;
 }
-
+.sg-header {
+  background-color: #2999d6;
+  color: white;
+}
 .demo-animate {
   background: #ddd;
   padding: 1em;

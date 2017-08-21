@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1503346016954,
+  "timestamp": 1503348548387,
   "graph": {
     "options": {
       "directed": true,
@@ -9,7 +9,7 @@
     },
     "nodes": [
       {
-        "v": "00-atoms\\00-index\\index.mustache",
+        "v": "00-atoms\\00-atom\\00-atom.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -99,6 +99,12 @@
         }
       },
       {
+        "v": "01-molecules\\00-molecule\\00-molecule.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "01-molecules\\04-form-molecules\\form-field.mustache",
         "value": {
           "compileState": "clean"
@@ -111,7 +117,19 @@
         }
       },
       {
+        "v": "02-organisms\\00-organism\\00-organism.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "02-organisms\\form-organisms\\fieldset.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms\\logo-slider\\logo-slider.mustache",
         "value": {
           "compileState": "clean"
         }

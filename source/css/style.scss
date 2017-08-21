@@ -5,6 +5,7 @@
 
 @import "scss/abstracts/colors";
 
+@import "scss/base/normalize";
 @import "scss/base/typography";
 @import "scss/base/textures";
 @import "scss/base/forms";
@@ -12,6 +13,7 @@
 
 @import "scss/components/buttons";
 @import "scss/components/header-textured";
+@import "scss/components/logo-slider-section";
 
 @import "scss/layout/cols";
 @import "scss/layout/helpers";
