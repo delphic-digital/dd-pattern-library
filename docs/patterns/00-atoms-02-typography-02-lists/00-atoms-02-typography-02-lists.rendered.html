@@ -26,39 +26,48 @@
 
 <body class="">
 
-  <ul class="sg-colors">
-    <li>
-      <span class="sg-swatch" style="background: #2999d6;"></span>
-      <span class="sg-label">
-			$delphic-blue <br />
-			#2999d6
-		</span>
-    </li>
-  </ul>
-  <ul class="sg-colors">
-    <li>
-      <span class="sg-swatch" style="background: #00ADEE;"></span>
-      <span class="sg-label">
-			$cube-blue-top <br />
-			#00ADEE
-		</span>
-    </li>
-    <li>
-      <span class="sg-swatch" style="background: #00688F;"></span>
-      <span class="sg-label">
-			$cube-blue-left <br />
-			#00688F
-		</span>
-    </li>
-    <li>
-      <span class="sg-swatch" style="background: #008ABE;"></span>
-      <span class="sg-label">
-			$cube-blue-right <br />
-			#008ABE
-		</span>
-    </li>
-
-  </ul>
+  <div class="row row--v-baseline">
+    <div class="row__col pad">
+      <ul>
+        <li>list item</li>
+        <li>list item</li>
+        <li>
+          Parent list item
+          <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>
+              Parent list item
+              <ul>
+                <li>list item</li>
+                <li>list item</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="row__col pad">
+      <ol>
+        <li>list item</li>
+        <li>list item</li>
+        <li>
+          Parent list item
+          <ol>
+            <li>list item</li>
+            <li>list item</li>
+            <li>
+              Parent list item
+              <ol>
+                <li>list item</li>
+                <li>list item</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+  </div>
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
     {
@@ -73,11 +82,11 @@
       "patternDesc": "<p>The media block consists of...</p>\n",
       "patternBreadcrumb": {
         "patternType": "atoms",
-        "patternSubtype": "colors"
+        "patternSubtype": "typography"
       },
       "patternExtension": "mustache",
-      "patternName": "Brand Colors",
-      "patternPartial": "atoms-brand-colors",
+      "patternName": "Lists",
+      "patternPartial": "atoms-lists",
       "patternState": "inreview",
       "patternEngineName": "mustache",
       "extraOutput": {}

@@ -26,39 +26,43 @@
 
 <body class="">
 
-  <ul class="sg-colors">
-    <li>
-      <span class="sg-swatch" style="background: #2999d6;"></span>
-      <span class="sg-label">
-			$delphic-blue <br />
-			#2999d6
-		</span>
-    </li>
-  </ul>
-  <ul class="sg-colors">
-    <li>
-      <span class="sg-swatch" style="background: #00ADEE;"></span>
-      <span class="sg-label">
-			$cube-blue-top <br />
-			#00ADEE
-		</span>
-    </li>
-    <li>
-      <span class="sg-swatch" style="background: #00688F;"></span>
-      <span class="sg-label">
-			$cube-blue-left <br />
-			#00688F
-		</span>
-    </li>
-    <li>
-      <span class="sg-swatch" style="background: #008ABE;"></span>
-      <span class="sg-label">
-			$cube-blue-right <br />
-			#008ABE
-		</span>
-    </li>
+  <form>
 
-  </ul>
+    <fieldset>
+      <legend>Fieldset legend</legend>
+      <label for="text-input-example">Input label</label>
+      <input type="text" id="text-input-example" placeholder="placeholder text">
+    </fieldset>
+
+    <input type="checkbox" checked="checked">
+
+    <div class="radio-button">
+      <input type="radio" id="radio-example-one" name="radios" checked="checked">
+      <label for="radio-example-one">One</label>
+    </div>
+
+    <div class="radio-button">
+      <input type="radio" id="radio-example-two" name="radios">
+      <label for="radio-example-two">Two</label>
+    </div>
+
+    <select>
+        <option>un selectable option</option>
+        <option>one</option>
+        <option>two</option>
+        <option>three</option>
+        <option>four</option>
+        <option>five</option>
+        <option>six</option>
+        <option>seven</option>
+        <option>eight</option>
+        <option>nine</option>
+        <option>ten</option>
+    </select>
+
+    <textarea row="5" cols="20" placeholder="placeholder text"></textarea>
+
+  </form>
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
     {
@@ -73,12 +77,12 @@
       "patternDesc": "<p>The media block consists of...</p>\n",
       "patternBreadcrumb": {
         "patternType": "atoms",
-        "patternSubtype": "colors"
+        "patternSubtype": "forms"
       },
       "patternExtension": "mustache",
-      "patternName": "Brand Colors",
-      "patternPartial": "atoms-brand-colors",
-      "patternState": "inreview",
+      "patternName": "Inputs",
+      "patternPartial": "atoms-inputs",
+      "patternState": "inprogress",
       "patternEngineName": "mustache",
       "extraOutput": {}
     }

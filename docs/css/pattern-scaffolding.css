@@ -29,6 +29,7 @@
   padding: 0 !important;
   margin: 0 !important;
 }
+
 .sg-colors li {
   -webkit-box-flex: 1;
       -ms-flex: auto;
@@ -39,6 +40,7 @@
   max-width: 14em;
   border: 1px solid #ddd;
   border-radius: 8px;
+  background-image: none;
 }
 
 .sg-swatch {
