@@ -599,6 +599,35 @@ select {
     font-size: 18px;
     padding: 13px 25px; }
 
+.headshot {
+  display: block;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1px solid #e1e4e6;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center; }
+
+a.headshot {
+  cursor: pointer; }
+  a.headshot:hover {
+    border-color: #2999d6; }
+
+.author-card {
+  display: block;
+  text-align: center; }
+  .author-card .headshot {
+    margin: 0 auto; }
+  .author-card__name {
+    line-height: 1.2; }
+
+a.author-card {
+  cursor: pointer; }
+  a.author-card:hover .headshot {
+    border-color: #2999d6; }
+
 .header-textured {
   background-image: url("../images/pattern-cube-blue.jpg");
   padding: 60px 30px; }

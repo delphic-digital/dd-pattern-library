@@ -1,0 +1,18 @@
+//the circular profile pics, the image is added inline
+.headshot { //div or a
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 1px solid #e1e4e6;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+a.headshot { 
+    cursor: pointer; 
+    &:hover {
+        border-color: $delphic-blue;
+    }
+}

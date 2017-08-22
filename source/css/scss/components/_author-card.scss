@@ -1,0 +1,21 @@
+.author-card { //div or a
+    display: block;
+    text-align: center;
+
+    .headshot {
+        margin: 0 auto;
+    }
+
+    &__name {
+        line-height: 1.2;
+    }
+}
+
+a.author-card {
+    cursor: pointer;
+    &:hover {
+        .headshot {
+            border-color: $delphic-blue;
+        }
+    }
+}
